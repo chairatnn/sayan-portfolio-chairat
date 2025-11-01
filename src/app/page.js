@@ -6,6 +6,7 @@ import { ResponsiveNavbar } from "@/components/navbar";
 import { HeroSection } from "@/components/hero-section";
 import LogoLoop from "@/components/LogoLoop";
 import { ProjectFollowingPointer } from "@/components/ProjectFollowingPointer";
+import GitHubInsights from "@/components/GitHubInsights";
 import { motion } from "framer-motion";
 import {
   IconCode,
@@ -790,6 +791,9 @@ export default function Home() {
             </motion.div>
           </div>
         </section>
+
+        {/* GitHub Insights Section */}
+        <GitHubInsights />
 
         {/* Contact Section */}
         <section id="contact" className="py-20 px-4 relative">
