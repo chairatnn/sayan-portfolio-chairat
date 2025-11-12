@@ -615,22 +615,6 @@ export default function GitHubInsights() {
           </motion.div>
         </div>
 
-        {/* Recent Repositories */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h3 className="text-2xl font-semibold text-white mb-6 flex items-center gap-2">
-            🔥 Recent Projects
-          </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {githubData.recentRepos.map((repo, index) => (
-              <RepoCard key={repo.id} repo={repo} index={index} />
-            ))}
-          </div>
-        </motion.div>
-
         {/* GitHub Profile Link */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
