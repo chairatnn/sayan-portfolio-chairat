@@ -153,18 +153,12 @@ export default function GitHubInsights() {
                 { headers }
               );
 
-              if (readmeResponse.ok) {
+              if (readmeResponse.ok && readmeResponse.status === 200) {
                 const readmeData = await readmeResponse.json();
                 // Decode base64 content
                 const readmeContent = atob(readmeData.content);
                 // Extract README content - more aggressive approach to find real descriptions
                 let lines = readmeContent.split("\n");
-
-                console.log(
-                  `Processing README for ${repo.name}, total lines:`,
-                  lines.length
-                );
-                console.log(`First 10 lines:`, lines.slice(0, 10));
 
                 // Try multiple approaches to find meaningful content
                 let cleanContent = "";
@@ -226,11 +220,6 @@ export default function GitHubInsights() {
                   }
                 }
 
-                console.log(
-                  `Extracted content for ${repo.name}:`,
-                  cleanContent
-                );
-
                 const finalContent =
                   cleanContent.length > 15
                     ? cleanContent
@@ -251,7 +240,7 @@ export default function GitHubInsights() {
                 };
               }
             } catch (error) {
-              console.warn(`Could not fetch README for ${repo.name}:`, error);
+              // Silently handle README fetch errors
               return {
                 ...repo,
                 readmePreview: repo.description || "README unavailable",
