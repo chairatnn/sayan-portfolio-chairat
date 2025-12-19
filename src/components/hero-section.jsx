@@ -215,7 +215,7 @@ export function HeroSection() {
               >
                 {/* GitHub */}
                 <motion.a
-                  href="https://github.com/sayanadhi03"
+                  href="https://github.com/chairatnn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"
@@ -237,7 +237,7 @@ export function HeroSection() {
 
                 {/* LinkedIn */}
                 <motion.a
-                  href="https://www.linkedin.com/in/sayan-adhikary03/"
+                  href="https://www.linkedin.com/in/chairat-nuansamniang-50b78a160/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"
@@ -260,7 +260,7 @@ export function HeroSection() {
 
               {/* Resume Button */}
               <motion.a
-                href="https://drive.google.com/file/d/1rFUztRWi1Qol9hcYU0YyBQq5jltDIktb/view?usp=drive_link"
+                href="https://drive.google.com/file/d/15wnEJlSUWU0i_kQaIJ-rFqFopuRJ4IPF/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-gray-800 hover:bg-gray-700 px-8 py-3 rounded-full font-semibold transition-colors flex items-center space-x-2"
