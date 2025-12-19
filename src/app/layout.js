@@ -12,25 +12,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Sayan Adhikary",
+  title: "Chairat Nuansamniang",
   description:
     "Full-Stack Developer & Software Engineer - Creating innovative digital solutions with modern web technologies",
   keywords:
-    "Sayan Adhikary, Full Stack Developer, Software Engineer, React, Next.js, Node.js, JavaScript, Web Development",
-  authors: [{ name: "Sayan Adhikary" }],
-  creator: "Sayan Adhikary",
+    "Chairat Nuansamniang, Full Stack Developer, Software Engineer, React, Next.js, Node.js, JavaScript, Web Development",
+  authors: [{ name: "Chairat Nuansamniang" }],
+  creator: "Chairat Nuansamniang",
   openGraph: {
-    title: "Sayan Adhikary - Full-Stack Developer",
+    title: "Chairat Nuansamniang - Full-Stack Developer",
     description:
       "Full-Stack Developer & Software Engineer - Creating innovative digital solutions with modern web technologies",
-    url: "https://sayan-adhikary.com",
-    siteName: "Sayan Adhikary Portfolio",
+    url: "https://my-personal-profile-blue.vercel.app/",
+    siteName: "Chairat Nuansamniang Portfolio",
     images: [
       {
-        url: "/profile-icon.png",
+        url: "/profile-icon.jpg",
         width: 1200,
         height: 630,
-        alt: "Sayan Adhikary - Full-Stack Developer",
+        alt: "Chairat Nuansamniang - Full-Stack Developer",
       },
     ],
     locale: "en_US",
@@ -38,15 +38,15 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sayan Adhikary - Full-Stack Developer",
+    title: "Chairat Nuansamniang - Full-Stack Developer",
     description:
       "Full-Stack Developer & Software Engineer - Creating innovative digital solutions with modern web technologies",
-    images: ["/profile-icon.png"],
+    images: ["/profile-icon.jpg"],
   },
   icons: {
-    icon: "/profile-icon.png",
-    shortcut: "/profile-icon.png",
-    apple: "/profile-icon.png",
+    icon: "/profile-icon.jpg",
+    shortcut: "/profile-icon.jpg",
+    apple: "/profile-icon.jpg",
   },
   manifest: "/manifest.json",
 };

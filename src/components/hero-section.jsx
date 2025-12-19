@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   const titles = [
-    "FULL STACK DEVELOPER",
-    "FRONTEND ENGINEER",
-    "AGENTIC AI ENGINEER",
+    "FRONTEND DEVELOPER",
+    "SOFTWARE DEVELOPER",
+    "SYSTEM ENGINEER ",
   ];
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
@@ -99,7 +99,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
               >
-                {"Hey, I'm ".split("").map((char, index) => (
+                {"Hi, I'm ".split("").map((char, index) => (
                   <motion.span
                     key={index}
                     initial={{ opacity: 0, y: 50 }}
@@ -116,7 +116,7 @@ export function HeroSection() {
                     {char === " " ? "\u00A0" : char}
                   </motion.span>
                 ))}
-                {"Sayan".split("").map((char, index) => (
+                {"Chairat".split("").map((char, index) => (
                   <motion.span
                     key={index + 10}
                     initial={{ opacity: 0, y: 50, scale: 0.8 }}
@@ -166,7 +166,7 @@ export function HeroSection() {
                 />
               </motion.svg>
               <span className="text-lg text-orange-500">
-                {"West Bengal, India".split("").map((char, index) => (
+                {"Bangkok, Thailand".split("").map((char, index) => (
                   <motion.span
                     key={index}
                     initial={{ opacity: 0, y: 20 }}
@@ -365,7 +365,7 @@ export function HeroSection() {
                   >
                     <Image
                       src="/portfolio image.jpg"
-                      alt="Sayan Adhikary Profile Picture"
+                      alt="Chairat Nuansamniang Profile Picture"
                       width={400}
                       height={400}
                       className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-500"

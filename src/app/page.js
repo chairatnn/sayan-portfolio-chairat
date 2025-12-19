@@ -333,27 +333,27 @@ export default function Home() {
 
   const education = [
     {
-      degree: "B.Tech. in Computer Science & Engineering",
-      institution: "Techno Engineering College, Banipur",
-      location: "Banipur, North 24 PGS",
-      period: "2022 - 2026",
-      grade: "7.34 CGPA",
+      degree: "Master of Computer Science - IT",
+      institution: "Khonkaen University",
+      location: "Khonkaen, Thailand",
+      period: "2018 - 2020",
+      grade: "3.90 GPA",
       icon: IconSchool,
       achievements: [
         "Maintaining excellent academic performance.",
-        "Working on various software development projects.",
+        "Scholarship for Outstanding Academic Performance at the Graduate Level.",
       ],
     },
     {
-      degree: "Higher Secondary (Science)",
-      institution: "Habra High School(H.S)",
-      location: "Habra, North 24 PGS",
-      period: "2020 - 2021",
-      grade: "89%",
+      degree: "Bacherlor of Engineer - IE",
+      institution: "Khonkaen University",
+      location: "Khonkaen, Thailand",
+      period: "2000 - 2004",
+      grade: "3.45 GPA",
       icon: IconCertificate,
       achievements: [
-        "Specialized in Computer Science and Mathematics.",
-        "Achieved outstanding results in Computer Science in board examinations.",
+        "Specialized in Engineer and Computer Science.",
+        "Working on various Business system development projects.",
       ],
     },
   ];
@@ -413,15 +413,15 @@ export default function Home() {
                 className="space-y-4 sm:space-y-6"
               >
                 <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-white">
-                  Passionate Full-Stack Developer
+                  Passionate Software Developer
                 </h3>
                 <p className="text-gray-300 text-lg leading-relaxed">
-                  Final-year Computer Science student skilled in full-stack web
+                  IT bootcamp skilled in full-stack web
                   development (
                   <strong className="text-white font-bold">React</strong>,{" "}
                   <strong className="text-white font-bold">Node.js</strong>,{" "}
                   <strong className="text-white font-bold">MongoDB</strong>)
-                  with project experience in AI-based applications. Passionate
+                  with project experience in mini-ERP web applications. Passionate
                   about problem-solving, clean code, and currently exploring{" "}
                   <strong className="text-white font-bold">Agentic AI</strong>{" "}
                   for building intelligent, autonomous systems.
@@ -429,16 +429,17 @@ export default function Home() {
                 <p className="text-gray-300 text-lg leading-relaxed">
                   My expertise spans across frontend frameworks like{" "}
                   <strong className="text-white font-bold">React</strong> and
-                  <strong className="text-white font-bold">Next.js</strong>,
+                  <strong className="text-white font-bold"> Next.js</strong>,
                   backend technologies including{" "}
                   <strong className="text-white font-bold">Node.js</strong>, and
                   database management with{" "}
-                  <strong className="text-white font-bold">MongoDB</strong>.
+                  <strong className="text-white font-bold">MongoDB</strong>. and 
+                   <strong className="text-white font-bold"> PostgreSQL</strong>.
                 </p>
                 <div className="flex flex-wrap gap-4 pt-4">
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMapPin size={20} />
-                    <span>Kolkata, India</span>
+                    <span>Bangkok, Thailand</span>
                   </div>
                   <div className="flex items-center gap-2 text-orange-400">
                     <IconMail size={20} />
@@ -850,7 +851,7 @@ export default function Home() {
                           Email
                         </p>
                         <p className="text-orange-400 text-sm sm:text-base break-all">
-                          sayanadhikary003@gmail.com
+                          chairatnn@gmail.com
                         </p>
                       </div>
                     </div>
@@ -861,7 +862,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="font-medium">Phone</p>
-                        <p className="text-orange-400">+91 93397 12883</p>
+                        <p className="text-orange-400">+66 83 669 1717</p>
                       </div>
                     </div>
 
@@ -872,7 +873,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium">Location</p>
                         <p className="text-orange-400">
-                          Kolkata, West Bengal, India
+                          Generation, Bangkok, Thailand
                         </p>
                       </div>
                     </div>
@@ -881,7 +882,7 @@ export default function Home() {
 
                 <div className="flex gap-4">
                   <motion.a
-                    href="https://www.linkedin.com/in/sayan-adhikary03/"
+                    href="https://www.linkedin.com/in/chairat-nuansamniang-50b78a160/"
                     target="_blank"
                     className="p-3 bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-lg border border-gray-600/30 hover:border-orange-500/50 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
@@ -889,7 +890,7 @@ export default function Home() {
                     <IconBrandLinkedin size={24} className="text-orange-400" />
                   </motion.a>
                   <motion.a
-                    href="https://github.com/sayanadhi03"
+                    href="https://github.com/chairatnn"
                     target="_blank"
                     className="p-3 bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-lg border border-gray-600/30 hover:border-orange-500/50 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
@@ -897,7 +898,7 @@ export default function Home() {
                     <IconBrandGithub size={24} className="text-orange-400" />
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/1rFUztRWi1Qol9hcYU0YyBQq5jltDIktb/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/15wnEJlSUWU0i_kQaIJ-rFqFopuRJ4IPF/view?usp=drive_link"
                     target="_blank"
                     className="p-3 bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-lg border border-gray-600/30 hover:border-orange-500/50 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
@@ -924,7 +925,7 @@ export default function Home() {
         <footer className="py-8 px-4 border-t border-gray-800">
           <div className="container mx-auto max-w-6xl text-center">
             <p className="text-gray-400">
-              © 2025 Sayan Adhikary. All rights reserved. Built with ❤️ using
+              © 2025 Chairat Nuansamniang. All rights reserved. Built with  ✅ using
               Next.js
             </p>
           </div>
