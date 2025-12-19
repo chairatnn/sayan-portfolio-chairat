@@ -29,10 +29,10 @@ export default function ContactForm() {
 
     emailjs
       .sendForm(
-        "service_iyxzbhk",
-        "template_m5o8jdg",
+        "service_9bftb08",
+        "template_2g55dgn",
         form.current,
-        "h2vl_PxAEuqqadanv",
+        "vRSgbpKKzCNs-Ya7r",
         { time }
       )
       .then(

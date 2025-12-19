@@ -62,8 +62,8 @@ export default function RootLayout({ children }) {
           name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"
         />
-        <meta name="apple-mobile-web-app-title" content="Sayan Adhikary" />
-        <link rel="canonical" href="https://sayan-adhikary.com" />
+        <meta name="apple-mobile-web-app-title" content="Chairat Nuansamniang" />
+        <link rel="canonical" href="https://my-personal-profile-blue.vercel.app/" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
