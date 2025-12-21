@@ -11,21 +11,21 @@ export default function GitHubInsights() {
   useEffect(() => {
     const fetchGitHubData = async () => {
       try {
-        // const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
-        // const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME;
+        const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN;
+        const username = process.env.NEXT_PUBLIC_GITHUB_USERNAME;
 
-        if (!process.env.NEXT_PUBLIC_GITHUB_TOKEN || !process.env.NEXT_PUBLIC_GITHUB_USERNAME) {
+        if (!token || !username) {
           throw new Error("GitHub token or username not found");
         }
 
         const headers = {
-          Authorization: `Bearer ${process.env.NEXT_PUBLIC_GITHUB_TOKEN}`,
+          Authorization: `Bearer ${token}`,
           Accept: "application/vnd.github.v3+json",
         };
 
         // Fetch user data
         const userResponse = await fetch(
-          `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}`,
+          `https://api.github.com/users/${username}`,
           {
             headers,
           }
@@ -34,7 +34,7 @@ export default function GitHubInsights() {
 
         // Fetch repositories
         const reposResponse = await fetch(
-          `https://api.github.com/users/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/repos?per_page=100&sort=updated`,
+          `https://api.github.com/users/${username}/repos?per_page=100&sort=updated`,
           { headers }
         );
         const reposData = await reposResponse.json();
@@ -47,8 +47,8 @@ export default function GitHubInsights() {
           const currentYear = new Date().getFullYear();
           const graphqlQuery = {
             query: `
-              query($process.env.NEXT_PUBLIC_GITHUB_USERNAME: String!) {
-                user(login: $process.env.NEXT_PUBLIC_GITHUB_USERNAME) {
+              query($username: String!) {
+                user(login: $username) {
                   contributionsCollection(from: "${currentYear}-01-01T00:00:00Z", to: "${currentYear}-12-31T23:59:59Z") {
                     contributionCalendar {
                       totalContributions
@@ -90,7 +90,7 @@ export default function GitHubInsights() {
           try {
             const currentYear = new Date().getFullYear();
             const searchResponse = await fetch(
-              `https://api.github.com/search/commits?q=author:${process.env.NEXT_PUBLIC_GITHUB_USERNAME}+author-date:${currentYear}-01-01..${currentYear}-12-31`,
+              `https://api.github.com/search/commits?q=author:${username}+author-date:${currentYear}-01-01..${currentYear}-12-31`,
               { headers }
             );
 
@@ -149,7 +149,7 @@ export default function GitHubInsights() {
           recentRepos.map(async (repo) => {
             try {
               const readmeResponse = await fetch(
-                `https://api.github.com/repos/${process.env.NEXT_PUBLIC_GITHUB_USERNAME}/${repo.name}/readme`,
+                `https://api.github.com/repos/${username}/${repo.name}/readme`,
                 { headers }
               );
 
