@@ -6,9 +6,10 @@ import { motion } from "framer-motion";
 
 export function HeroSection() {
   const titles = [
-    "FRONTEND DEVELOPER",
-    "SOFTWARE DEVELOPER",
-    "SYSTEM ENGINEER ",
+    "PROJECT MANAGER",
+    "PRODUCT OWNER",
+    "SOFTWARE ENGINEER",
+    "FULLSTACK DEVELOPER",
   ];
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");

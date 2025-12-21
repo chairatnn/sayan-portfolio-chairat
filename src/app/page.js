@@ -177,11 +177,11 @@ export default function Home() {
         <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
           <IconCode className="text-gray-400" size={24} />
           <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
-            Express.js
+            Express
           </span>
         </div>
       ),
-      alt: "Express.js",
+      alt: "Express",
     },
     // {
     //   node: (
@@ -281,7 +281,7 @@ export default function Home() {
       title: "mini–ERP for SMEs & StartUp",
       description:
         "• To streamline core business operations—including inventory tracking, sales, and order management—into a single, unified platform. • To provide real-time visibility into stock levels and transaction history, enabling SMEs to make data-driven decisions and minimize stock-outs or overstocking. • To develop a highly scalable and responsive web application using the MERN stack, ensuring a seamless user experience across multiple devices as the business grows.",
-      image: "/Screenshot-miniERP.jpg", // Updated to use the actual uploaded image filename
+      image: "/Screenshot-miniERP.png", // Updated to use the actual uploaded image filename
       tech: [
         "React",
         "Shadcn/ui",
