@@ -94,7 +94,7 @@ export function HeroSection() {
             {/* Main Heading */}
             <div className="space-y-4">
               <motion.h1
-                className="text-5xl text-white lg:text-7xl font-bold leading-tight"
+                className="text-5xl text-white lg:text-6xl font-bold leading-tight"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
@@ -116,7 +116,7 @@ export function HeroSection() {
                     {char === " " ? "\u00A0" : char}
                   </motion.span>
                 ))}
-                {"Chairat".split("").map((char, index) => (
+                {"CHAIRAT".split("").map((char, index) => (
                   <motion.span
                     key={index + 10}
                     initial={{ opacity: 0, y: 50, scale: 0.8 }}

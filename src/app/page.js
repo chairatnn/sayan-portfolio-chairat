@@ -506,7 +506,7 @@ export default function Home() {
                   academic journey
                 </Highlighter>{" "}
                 and continuous{" "}
-                <Highlighter action="highlight" color="#87CEFA">
+                <Highlighter action="highlight" color="#EF6C00">
                   learning path
                 </Highlighter>{" "}
                 in technology
@@ -653,7 +653,7 @@ export default function Home() {
                   technologies
                 </Highlighter>{" "}
                 and tools I work with to bring{" "}
-                <Highlighter action="highlight" color="#87CEFA">
+                <Highlighter action="highlight" color="#EF6C00">
                   ideas to life
                 </Highlighter>
               </p>
@@ -769,7 +769,7 @@ export default function Home() {
                   portfolio projects
                 </Highlighter>{" "}
                 with interactive{" "}
-                <Highlighter action="highlight" color="#87CEFA">
+                <Highlighter action="highlight" color="#EF6C00">
                   following pointer effects
                 </Highlighter>
               </p>
@@ -820,7 +820,7 @@ export default function Home() {
                   ideas to life
                 </Highlighter>
                 ? Let&apos;s discuss your{" "}
-                <Highlighter action="highlight" color="#87CEFA">
+                <Highlighter action="highlight" color="#EF6C00">
                   next project
                 </Highlighter>
               </p>
