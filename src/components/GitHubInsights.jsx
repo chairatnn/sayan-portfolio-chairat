@@ -57,7 +57,7 @@ export default function GitHubInsights() {
                 }
               }
             `,
-            variables: { process.env.NEXT_PUBLIC_GITHUB_USERNAME },
+            variables: { username },
           };
 
           const contributionsResponse = await fetch(
