@@ -58,12 +58,12 @@ export default function Home() {
       React: { icon: IconBrandReact, color: "text-cyan-400" },
       "Next.js": { icon: IconBrandNextjs, color: "text-white" },
       "Node.js": { icon: IconBrandNodejs, color: "text-green-500" },
-      JavaScript: { icon: IconBrandJavascript, color: "text-yellow-400" },
-      TypeScript: { icon: IconBrandTypescript, color: "text-blue-500" },
+      "JavaScript": { icon: IconBrandJavascript, color: "text-yellow-400" },
+      "TypeScript": { icon: IconBrandTypescript, color: "text-blue-500" },
       Python: { icon: IconBrandPython, color: "text-blue-400" },
       "Tailwind CSS": { icon: IconBrandTailwind, color: "text-cyan-400" },
-      MongoDB: { icon: IconBrandMongodb, color: "text-green-500" },
-      PostgreSQL: { icon: IconPostgreSQL, color: "text-blue-600" },
+      "MongoDB": { icon: IconBrandMongodb, color: "text-green-500" },
+      "PostgreSQL": { icon: IconPostgreSQL, color: "text-blue-600" },
       Firebase: { icon: IconBrandFirebase, color: "text-yellow-500" },
       "Redux Toolkit": { icon: IconBrandRedux, color: "text-purple-500" },
       "Chart.js": { icon: IconChartBar, color: "text-pink-400" },
@@ -74,7 +74,7 @@ export default function Home() {
       TensorFlow: { icon: IconBolt, color: "text-orange-500" },
       "TensorFlow.js": { icon: IconBolt, color: "text-orange-400" },
       Docker: { icon: IconBrandDocker, color: "text-blue-400" },
-      Express: { icon: IconServer, color: "text-gray-300" },
+      "Express": { icon: IconServer, color: "text-gray-300" },
       Stripe: { icon: IconBrandStripe, color: "text-indigo-500" },
       JWT: { icon: IconWorldWww, color: "text-gray-400" },
       OpenAI: { icon: IconBolt, color: "text-green-400" },
@@ -91,11 +91,11 @@ export default function Home() {
   };
 
   const skills = [
-    { name: "Frontend Development", icon: IconBrandReact, level: 90 },
-    { name: "Backend Development", icon: IconBrandNodejs, level: 85 },
+    { name: "Frontend Development", icon: IconBrandReact, level: 85 },
+    { name: "Backend Development", icon: IconBrandNodejs, level: 80 },
     { name: "Database Management", icon: IconDatabase, level: 80 },
     { name: "Python Programming", icon: IconBrandPython, level: 88 },
-    { name: "JavaScript/TypeScript", icon: IconBrandJavascript, level: 92 },
+    { name: "JavaScript/TypeScript", icon: IconBrandJavascript, level: 90 },
     { name: "UI/UX Design", icon: IconDeviceDesktop, level: 75 },
   ];
 
@@ -183,28 +183,28 @@ export default function Home() {
       ),
       alt: "Express.js",
     },
-    {
-      node: (
-        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
-          <IconApi className="text-orange-400" size={24} />
-          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
-            Postman
-          </span>
-        </div>
-      ),
-      alt: "Postman",
-    },
-    {
-      node: (
-        <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
-          <IconBrandFirebase className="text-yellow-500" size={24} />
-          <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
-            Firebase
-          </span>
-        </div>
-      ),
-      alt: "Firebase",
-    },
+    // {
+    //   node: (
+    //     <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+    //       <IconApi className="text-orange-400" size={24} />
+    //       <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+    //         Postman
+    //       </span>
+    //     </div>
+    //   ),
+    //   alt: "Postman",
+    // },
+    // {
+    //   node: (
+    //     <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
+    //       <IconBrandFirebase className="text-yellow-500" size={24} />
+    //       <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
+    //         Firebase
+    //       </span>
+    //     </div>
+    //   ),
+    //   alt: "Firebase",
+    // },
     {
       node: (
         <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
@@ -219,13 +219,13 @@ export default function Home() {
     {
       node: (
         <div className="flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-gray-800/50 to-gray-900/50 backdrop-blur-sm px-3 sm:px-6 py-2 sm:py-3 rounded-full border border-gray-700/30">
-          <IconFlask className="text-gray-300" size={24} />
+          <IconPostgreSQL className="text-blue-600" size={24} />
           <span className="text-white font-medium sm:font-semibold text-sm sm:text-base">
-            Flask
+            PostgreSQL
           </span>
         </div>
       ),
-      alt: "Flask",
+      alt: "PostgreSQL",
     },
     {
       node: (
@@ -278,56 +278,56 @@ export default function Home() {
 
   const projects = [
     {
-      title: "Crypto Verse – Digital Assets Hub",
+      title: "mini–ERP for SMEs & StartUp",
       description:
-        "• Built a cryptocurrency tracking platform that consolidated live prices, market stats, and news into one dashboard, reducing information lookup time by 40%. • Integrated CoinRanking API & News API via RapidAPI, improving data accuracy and enabling real-time updates within 2s latency. • Optimized state management with Redux Toolkit, cutting redundant API calls by 30% and boosting app responsiveness.",
-      image: "/Screenshot 2025-10-01 232803.png", // Updated to use the actual uploaded image filename
+        "• To streamline core business operations—including inventory tracking, sales, and order management—into a single, unified platform. • To provide real-time visibility into stock levels and transaction history, enabling SMEs to make data-driven decisions and minimize stock-outs or overstocking. • To develop a highly scalable and responsive web application using the MERN stack, ensuring a seamless user experience across multiple devices as the business grows.",
+      image: "/Screenshot-miniERP.jpg", // Updated to use the actual uploaded image filename
       tech: [
-        "Next.js",
         "React",
+        "Shadcn/ui",
+        "JavaScript",
+        "TypeScript",
         "Tailwind CSS",
-        "Redux Toolkit",
-        "Chart.js",
-        "RapidAPI",
+        "PostgreSQL",
       ],
-      github: "https://github.com/sayanadhi03/Crypto-Verse",
-      live: "https://crypto-verse-kappa.vercel.app/",
+      github: "https://github.com/chairatnn/JSD-personal-project-chairat",
+      live: "https://jsd-personal-project-chairat.vercel.app/",
     },
     {
-      title: "AI Thief Detection System",
+      title: "VELVE Pet Shop 🐩",
       description:
-        "• Built a real-time object detection security system using TensorFlow.js (COCO-SSD) for browser-based AI inference. • Implemented person detection with bounding boxes and audio alerts, running entirely on the client-side for privacy. • Integrated React Webcam and Canvas API for live monitoring, achieving detection updates every 100ms.",
-      image: "/Screenshot 2025-10-02 094800.png", // Using the uploaded AI Thief Detection image
-      tech: ["Next.js", "TensorFlow.js", "React", "Tailwind CSS"],
-      github: "https://github.com/sayanadhi03/AI-Thief-Detector",
-      live: "https://ai-thief-detector-gamma.vercel.app/",
+        "• To design and develop a sophisticated, responsive user interface that reflects a luxury brand identity, providing a seamless and premium shopping experience for high-end pet owners. • To implement a robust e-commerce engine featuring secure payment gateway integration and automated order processing to ensure data integrity and customer trust. • To build a flexible content management system that allows for real-time updates of premium product catalogs, categories, and inventory levels, ensuring high accuracy between the storefront and database.",
+      image: "/Screenshot-Velve.png", // Using the uploaded AI Thief Detection image
+      tech: ["Node.js", "Express", "React", "JavaScript", "Tailwind CSS", "MongoDB"],
+      github: "https://github.com/ittsty/pepevim-sprint2",
+      live: "https://jsd-pepevim-final-project-sprint1.vercel.app/",
     },
     {
-      title: "Weather App 🌤️",
+      title: "COLMAR ACADEMY",
       description:
-        "• Built a modern weather application providing real-time weather data, 5-day forecasts, and AQI information for cities worldwide. • Integrated Air Quality Index with health insights and multi-city weather tracking for comprehensive environmental monitoring. • Developed dark mode UI with smooth Framer Motion animations and temperature toggle (Celsius/Fahrenheit) for enhanced user experience.",
-      image: "/Screenshot 2025-10-14 220531.png", // Updated to use the new Weather App screenshot
-      tech: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
-      github: "https://github.com/sayanadhi03/weather-app",
-      live: "https://weather-app-eight-livid-25.vercel.app/",
+        "• To implement a clean and accessible web structure using Semantic HTML5 elements, ensuring that the content is well-organized for both users and Search Engine Optimization (SEO). • To build a fully responsive layout from scratch using CSS Flexbox and Grid, ensuring that the academy’s content adapts seamlessly to desktop, tablet, and mobile screen sizes. • To enhance user engagement by integrating JavaScript for dynamic content rendering and interactive elements, such as navigation menus or content filtering.",
+      image: "/Screenshot-Colmar.png", // Updated to use the new Weather App screenshot
+      tech: ["JavaScript", "TypeScript", "HTML", "Tailwind CSS"],
+      github: "https://github.com/chairatnn/02-chairat-colmar",
+      live: "https://02-chairat-colmar.vercel.app/",
     },
     {
-      title: "Data Analyzer CLI Tool",
+      title: "Maintenance Application",
       description:
-        "• Engineered a modular CLI tool to automate data cleaning, analysis, and visualization for CSV/Excel datasets up to 1M+ rows, cutting manual analysis time by 70%. • Designed 12+ analytical features including summary stats, filtering, groupby, correlation heatmaps, and multi-type charts (bar/line/hist/pie), improving data insights 3× faster. • Automated report exports (CSV, PNG, consolidated PDF), boosting reporting efficiency by 60% for repetitive workflows.",
-      image: "/Screenshot 2025-09-11 112027.png", // Updated to use the Data Analyzer CLI Tool screenshot
-      tech: ["Python", "Pandas", "Matplotlib", "argparse"],
-      github: "https://github.com/sayanadhi03/data-anlyzer",
-      live: "https://github.com/sayanadhi03/data-anlyzer",
+        "• To transition from manual or fragmented tracking to a centralized digital system, ensuring all maintenance logs, equipment history, and service schedules are stored in a single, searchable source of truth. • To optimize the Work Order lifecycle—from initial request to completion—by using Airtable’s automation features to track status updates in real-time and improve team communication. • To leverage Airtable’s relational database capabilities to analyze equipment downtime and historical data, enabling proactive preventive maintenance scheduling and reducing unplanned asset failures.",
+      image: "/Screenshot-Maintenance.png", // Updated to use the Data Analyzer CLI Tool screenshot
+      tech: ["Airtable", "GoogleSheet", "AppScript"],
+      github: "https://github.com/chairatnn?tab=repositories",
+      live: "https://airtable.com/appfgK6rFY0VOXFEv/shraL0qYEasJw8rIo/tbl4V50wagXBd1lfe",
     },
     {
-      title: "LangChain Demo with Llama3.2",
+      title: "Production Online Report",
       description:
-        "• Built a local AI-powered chatbot integrating LangChain with Ollama's LLaMA 3.2 model for conversational AI capabilities. • Implemented conversational memory, prompt chaining, and context-aware responses for enhanced user interactions. • Deployed as a lightweight local application using Streamlit, demonstrating practical LLM integration and deployment strategies.",
-      image: "/Screenshot 2025-10-02 121538.png", // Updated to use the LangChain Demo screenshot
-      tech: ["Streamlit", "LangChain", "Ollama"],
-      github: "https://github.com/sayanadhi03/Agentic-AI",
-      live: "https://github.com/sayanadhi03/Agentic-AI",
+        "• To digitalize the shop-floor reporting process, replacing traditional paper forms with a mobile-accessible application to reduce human error and eliminate time-consuming manual data re-entry. • To provide management and supervisors with real-time visibility into production outputs, machine downtime, and OEE (Overall Equipment Effectiveness) through automated cloud-based synchronization. • To ensure data integrity by implementing standardized input validation and automated timestamps, allowing for accurate performance tracking and improved accountability within the production team.",
+      image: "/Screenshot-Report.png", 
+      tech: ["AppSheet", "AppScript", "GoogleSheet"],
+      github: "https://github.com/chairatnn?tab=repositories",
+      live: "https://www.appsheet.com/start/97be8ef4-239d-42ba-b973-ffe2c48a1a62",
     },
   ];
 
@@ -873,7 +873,7 @@ export default function Home() {
                       <div>
                         <p className="font-medium">Location</p>
                         <p className="text-orange-400">
-                          Generation, Bangkok, Thailand
+                          Bangkok, Thailand
                         </p>
                       </div>
                     </div>
@@ -925,7 +925,7 @@ export default function Home() {
         <footer className="py-8 px-4 border-t border-gray-800">
           <div className="container mx-auto max-w-6xl text-center">
             <p className="text-gray-400">
-              © 2025 Chairat Nuansamniang. All rights reserved. Built with  ✅ using
+              © 2025 Chairat Nuansamniang. All rights reserved. Built with ✅ using
               Next.js
             </p>
           </div>

@@ -279,7 +279,7 @@ export const NavbarLogo = () => {
       <div className="relative">
         <img
           src="/portfolio image.jpg"
-          alt="Sayan Adhikary"
+          alt="Chairat Nuansamniang"
           width={30}
           height={30}
           className="rounded-full object-cover border-2 border-orange-500/30"
@@ -287,7 +287,7 @@ export const NavbarLogo = () => {
         <div className="absolute inset-0 rounded-full bg-gradient-to-r from-orange-500/20 to-red-600/20"></div>
       </div>
       <span className="font-medium text-black dark:text-white">
-        Sayan Adhikary
+        Chairat Nuansamniang
       </span>
     </a>
   );

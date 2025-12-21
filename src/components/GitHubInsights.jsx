@@ -465,7 +465,7 @@ export default function GitHubInsights() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-gray-300 text-center mb-12 max-w-2xl mx-auto"
         >
-          A glimpse into my coding journey and contributions to the open-source
+          An insight into my coding journey and contributions to the open-source
           community
         </motion.p>
 
