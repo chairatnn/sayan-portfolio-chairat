@@ -297,10 +297,10 @@ export default function Home() {
       title: "VELVE Pet Shop 🐩",
       description:
         "• To design and develop a sophisticated, responsive user interface that reflects a luxury brand identity, providing a seamless and premium shopping experience for high-end pet owners. • To implement a robust e-commerce engine featuring secure payment gateway integration and automated order processing to ensure data integrity and customer trust. • To build a flexible content management system that allows for real-time updates of premium product catalogs, categories, and inventory levels, ensuring high accuracy between the storefront and database.",
-      image: "/Screenshot-Velve.png", // Using the uploaded AI Thief Detection image
+      image: "/Screenshot-Velve.jpg", // Using the uploaded AI Thief Detection image
       tech: ["Node.js", "Express", "React", "JavaScript", "Tailwind CSS", "MongoDB"],
       github: "https://github.com/ittsty/pepevim-sprint2",
-      live: "https://jsd-pepevim-final-project-sprint1.vercel.app/",
+      live: "https://pepevim-sprint2.vercel.app/",
     },
     {
       title: "COLMAR ACADEMY",
