@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 export function HeroSection() {
   const titles = [
     "PROJECT MANAGER",
-    "PRODUCT OWNER",
+    "BUSINESS ANALYST",
     "SOFTWARE ENGINEER",
-    "FULLSTACK DEVELOPER",
+    "SECURITY ENGINEER",
   ];
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState("");
@@ -95,7 +95,7 @@ export function HeroSection() {
             {/* Main Heading */}
             <div className="space-y-4">
               <motion.h1
-                className="text-5xl text-white lg:text-6xl font-bold leading-tight"
+                className="pt-6 text-wrap text-white lg:text-6xl font-bold leading-tight"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, ease: "easeOut" }}
@@ -261,7 +261,7 @@ export function HeroSection() {
 
               {/* Resume Button */}
               <motion.a
-                href="https://drive.google.com/file/d/15wnEJlSUWU0i_kQaIJ-rFqFopuRJ4IPF/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1HLB_OP_HYDUi2fAbNaYQw6QA8yuEAA3n/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white bg-gray-800 hover:bg-gray-700 px-8 py-3 rounded-full font-semibold transition-colors flex items-center space-x-2"

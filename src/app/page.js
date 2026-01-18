@@ -839,15 +839,15 @@ export default function Home() {
                     Get in Touch
                   </h3>
                   <div className="space-y-4">
-                    <div className="flex items-center gap-3 sm:gap-4 text-gray-300">
-                      <div className="p-2 sm:p-3 bg-gradient-to-br from-orange-500/20 to-red-600/20 rounded-lg">
+                    <div className="flex items-center gap-4 text-gray-300">
+                      <div className="p-3 bg-gradient-to-br from-orange-500/20 to-red-600/20 rounded-lg">
                         <IconMail
-                          size={18}
+                          size={20}
                           className="text-orange-400 sm:w-5 sm:h-5"
                         />
                       </div>
                       <div>
-                        <p className="font-medium text-sm sm:text-base">
+                        <p className="font-medium">
                           Email
                         </p>
                         <p className="text-orange-400 text-sm sm:text-base break-all">
@@ -898,7 +898,7 @@ export default function Home() {
                     <IconBrandGithub size={24} className="text-orange-400" />
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/15wnEJlSUWU0i_kQaIJ-rFqFopuRJ4IPF/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1HLB_OP_HYDUi2fAbNaYQw6QA8yuEAA3n/view?usp=sharing"
                     target="_blank"
                     className="p-3 bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-lg border border-gray-600/30 hover:border-orange-500/50 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
