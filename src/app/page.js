@@ -898,7 +898,7 @@ export default function Home() {
                     <IconBrandGithub size={24} className="text-orange-400" />
                   </motion.a>
                   <motion.a
-                    href="https://drive.google.com/file/d/1HLB_OP_HYDUi2fAbNaYQw6QA8yuEAA3n/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1SbKtqhCii3Di7rp2zStx-cZ3u95-68lU/view?usp=sharing"
                     target="_blank"
                     className="p-3 bg-gradient-to-br from-gray-700/50 to-gray-800/50 rounded-lg border border-gray-600/30 hover:border-orange-500/50 transition-all duration-300"
                     whileHover={{ scale: 1.1, y: -2 }}
