@@ -278,7 +278,7 @@ export default function Home() {
 
   const projects = [
     {
-      title: "mini–ERP for SMEs & StartUp",
+      title: "Mini–ERP for SMEs & StartUp",
       description:
         "• To streamline core business operations—including inventory tracking, sales, and order management—into a single, unified platform. • To provide real-time visibility into stock levels and transaction history, enabling SMEs to make data-driven decisions and minimize stock-outs or overstocking. • To develop a highly scalable and responsive web application using the MERN stack, ensuring a seamless user experience across multiple devices as the business grows.",
       image: "/Screenshot-miniERP.png", // Updated to use the actual uploaded image filename
@@ -288,22 +288,31 @@ export default function Home() {
         "JavaScript",
         "TypeScript",
         "Tailwind CSS",
-        "PostgreSQL",
+        "MongoDB",
       ],
       github: "https://github.com/chairatnn/JSD-personal-project-chairat",
       live: "https://jsd-personal-project-chairat.vercel.app/",
     },
     {
-      title: "VELVE Pet Shop 🐩",
+      title: "Pet Shop Web E-commerce",
       description:
         "• To design and develop a sophisticated, responsive user interface that reflects a luxury brand identity, providing a seamless and premium shopping experience for high-end pet owners. • To implement a robust e-commerce engine featuring secure payment gateway integration and automated order processing to ensure data integrity and customer trust. • To build a flexible content management system that allows for real-time updates of premium product catalogs, categories, and inventory levels, ensuring high accuracy between the storefront and database.",
       image: "/Screenshot-Velve.jpg", // Using the uploaded AI Thief Detection image
       tech: ["Node.js", "Express", "React", "JavaScript", "Tailwind CSS", "MongoDB"],
       github: "https://github.com/ittsty/pepevim-sprint2",
-      live: "https://pepevim-sprint2.vercel.app/",
+      live: "https://velveshop.vercel.app/",
+    },
+        {
+      title: "Retrieval Augmented Generation (RAG)",
+      description:
+        "• Integrates RAG to tackle AI techniques that connect LLMs to external data sources.Not just to automate, but to act as a thinking partner' that helps our business make smarter, data-backed decisions faster than ever before.It’s amazing to see how AI is shifting from a tool to a true partner in 2026.",
+      image: "/Screenshot-RAG.jpg", // Updated to use the new Weather App screenshot
+      tech: ["Node.js", "Express", "React", "JavaScript", "Tailwind CSS", "MongoDB"],
+      github: "https://github.com/chairatnn/frontend-react-solution-neeti",
+      live: "https://frontend-react-solution-neeti.vercel.app/",
     },
     {
-      title: "COLMAR ACADEMY",
+      title: "Colmar Academy Website",
       description:
         "• To implement a clean and accessible web structure using Semantic HTML5 elements, ensuring that the content is well-organized for both users and Search Engine Optimization (SEO). • To build a fully responsive layout from scratch using CSS Flexbox and Grid, ensuring that the academy’s content adapts seamlessly to desktop, tablet, and mobile screen sizes. • To enhance user engagement by integrating JavaScript for dynamic content rendering and interactive elements, such as navigation menus or content filtering.",
       image: "/Screenshot-Colmar.png", // Updated to use the new Weather App screenshot
@@ -321,7 +330,7 @@ export default function Home() {
       live: "https://airtable.com/appfgK6rFY0VOXFEv/shraL0qYEasJw8rIo/tbl4V50wagXBd1lfe",
     },
     {
-      title: "Production Online Report",
+      title: "Production Report Application",
       description:
         "• To digitalize the shop-floor reporting process, replacing traditional paper forms with a mobile-accessible application to reduce human error and eliminate time-consuming manual data re-entry. • To provide management and supervisors with real-time visibility into production outputs, machine downtime, and OEE (Overall Equipment Effectiveness) through automated cloud-based synchronization. • To ensure data integrity by implementing standardized input validation and automated timestamps, allowing for accurate performance tracking and improved accountability within the production team.",
       image: "/Screenshot-Report.png", 
